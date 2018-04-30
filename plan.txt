@@ -1,0 +1,52 @@
+  DESCRIPTION;  
+  stored alphabetically by item name(tuba 1, tuba 2, tuba 3 etc.)
+  
+  tracks inventory
+  each item will have name, number, description, condition(repairs/ok)
+  can be signed out by students
+  
+  
+  SOFTWARE;
+  methods: add/remove
+                 insturments/sheet music/(other equipment?)
+  cannot sign out if insturment is under repair
+  alert if something isn't signed out on time
+  students can sign out stuff and return
+  teachers can browse sign-outs in order of due date
+  all data is saved to "disk" (save and load using file i/o)
+  use OOP and data structers/sorting algorithms
+
+  
+  beginning of program- select if student and teacher
+  
+  GUI;
+  buttons for:
+    add, delete, edit, search, previous/next 
+  use Jpanels onto Jframe
+  both students and teachers can use (next) button and (previous) button
+    
+  
+    
+    
+    
+    
+    
+    PLAN;
+    
+    have classes for insturments/sheet music
+    
+    welcome welcome
+      student? teacher? ->> user status (boolean)
+    read in txt file
+      set the info for the insturments
+      sheet music ->> condition?
+    if you choose to add
+      enter student number 
+      read in student txt file and check if found
+      add in the student, and set date
+    if you choose to remove 
+      remove the student from the equipment data
+      yea
+    
+    use gui card layout to navigate through the list
+    make pop up alerts if someone has overdue stuff
